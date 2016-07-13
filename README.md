@@ -1,7 +1,12 @@
 ARG-walker: inference of individual specific strengths of meiotic recombination hotspots by population genomics analysis.
 -----
 
+## Introduction
 
+ARG-walker is a novel graph mining algorithm which is based on random walks on ancestral recombination graphs (ARG), to estimate individual-specific recombination hotspot strengths. Most existing LD-based algorithms can only estimate the average recombination rate of a population. To the best of our knowledge, ARG-walker is the first compu- tational method for estimating individual-specific strengths of recombination hotspots using only sequence polymorphism data. 
+
+
+## Usage
 
 1. This folder includes two versions of ARGwalker program. One is "ARGwalker.pl" for one sample of haplotypes, the other is "ARGwalker_batch.pl" for batch-mode run of multiple samples.
 
@@ -17,3 +22,7 @@ For example, if the codes are stored under path "c:\Users\CH\Desktop\ARG-walker"
 >> cd c:\Users\CH\Desktop\ARG-walker
 >> perl ARGwalker.pl sample_input 
 ```
+
+## Citation
+
+Chen H, Yang P, Guo J, Kwoh CK, Przytycka TM, Zheng J. [ARG-walker: inference of individual specific strengths of meiotic recombination hotspots by population genomics analysis](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-16-S12-S1). BMC Genomics. BioMed Central Ltd; 2015;16: S1. doi:10.1186/1471-2164-16-S12-S1
